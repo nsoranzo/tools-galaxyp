@@ -13,7 +13,6 @@ tools/uniprotxml_downloader
 tools/scaffold
 tools/pepxml_to_xls
 tools/morpheus
-tools/peptideshaker
 tools/fasta_merge_files_and_filter_unique_sequences
 tools/translate_bed_sequences
 tools/dbbuilder
