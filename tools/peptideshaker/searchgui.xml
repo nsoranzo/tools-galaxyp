@@ -7,7 +7,9 @@
     </macros>
     <requirements>
         <requirement type="package" version="@SEARCHGUI_VERSION@">searchgui</requirement>
-        <environment_variable name="LC_ALL" action="set_to">C</environment_variable>        
+        <!-- conda package - both packages should have the same content -->
+        <requirement type="package" version="2.1.4">searchgui</requirement>
+        <environment_variable name="LC_ALL" action="set_to">C</environment_variable>
     </requirements>
     <expand macro="stdio" />
     <command>
